@@ -53,7 +53,7 @@ const Container = styled.div`
   align-items: center;
   border-radius: 0 0 0.5rem 0;
   grid-template-columns: 5% 95%;
-  background-color: #680747;
+  background-color: #7dd87d;
   padding: 0.5rem 2rem;
   @media screen and (min-width: 720px) and (max-width: 1080px) {
     padding: 0.5rem 1rem;
@@ -76,9 +76,9 @@ const Container = styled.div`
         top: -350px;
         background-color: white !important;
         box-shadow: 0 5px 10px #308a89;
-        border-color: #9a86f3;
+        border-color: black;
         .emoji-scroll-wrapper::-webkit-scrollbar {
-          background-color: #080420;
+          background-color: #8a1253;
           width: 5px;
           &-thumb {
             background-color: #9a86f3;
@@ -91,7 +91,7 @@ const Container = styled.div`
         }
         .emoji-search {
           background-color: transparent;
-          border-color: #9a86f3;
+          border-color: orange;
         }
         .emoji-group:before {
           background-color: #080420;
@@ -105,7 +105,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     gap: 2rem;
-    background-color: #ffffff34;
+    background-color: #f6e5e5;
     input {
       width: 90%;
       height: 60%;
@@ -127,7 +127,7 @@ const Container = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #9f1e49;
+      background-color: #7dd87d;
       cursor: pointer !important;
       border: none;
       @media screen and (min-width: 720px) and (max-width: 1080px) {

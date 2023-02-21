@@ -89,7 +89,7 @@ export default function Register() {
         <form action="" onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h1>CHAT WITH ME</h1>
+            <h1>Chat Application</h1>
           </div>
           <input
             type="text"
@@ -133,11 +133,7 @@ const FormContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background: linear-gradient(
-    158deg,
-    rgb(65, 80, 95) 0%,
-    rgb(36, 37, 38) 50.54%
-  );
+  background: #7dace4;
   .brand {
     display: flex;
     align-items: center;
@@ -160,7 +156,7 @@ const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: #ffffff;
+    background-color: #faf8d7;
     border-radius: 2rem;
     padding: 1rem 4rem;
     input {

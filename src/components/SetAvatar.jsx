@@ -124,7 +124,7 @@ const Container = styled.div`
   }
   .title-container {
     h1 {
-      color: #656563;
+      color: black;
     }
   }
   .avatars {
@@ -144,12 +144,12 @@ const Container = styled.div`
       }
     }
     .selected {
-      border: 0.4rem solid #656563;
+      border: 0.4rem solid black;
     }
   }
   .submit-btn {
     background-color: transparent;
-    color: #656563;
+    color: black;
     padding: 1rem 2rem;
     border: none;
     outline:solid 2px lightgray;

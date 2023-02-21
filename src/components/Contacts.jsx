@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import Logo from "../assets/8716838.gif";
+import Logo from "../assets/robot-cute.gif";
 
 export default function Contacts({ contacts, changeChat }) {
   const [currentUserName, setCurrentUserName] = useState(undefined);
@@ -113,7 +113,7 @@ const Container = styled.div`
       display: flex;
       transition: 0.2s ease-in;
       &:hover {
-        background-color: #680747;
+        background-color:#7dd87d;
         color: white;
       }
       .avatar {
@@ -128,11 +128,11 @@ const Container = styled.div`
       }
     }
     .selected {
-      background-color: #680747;
+      background-color: #7dd87d;
     }
   }
   .current-user {
-    background-color: #680747;
+    background-color: #7dd87d;
     display: flex;
     justify-content: start;
     align-items: center;

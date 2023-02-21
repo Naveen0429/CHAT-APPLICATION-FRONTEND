@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import Robot from "../assets/o2-bubl.gif";
+import Robot from "../assets/robot-cute.gif";
 import Logout from "./Logout";
 export default function Welcome() {
   const [userName, setUserName] = useState("");
@@ -33,18 +33,18 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #656565;
+  color: lite black;
   flex-direction: column;
   img {
     height: 18rem;
   }
   span {
-    color: #9f1e49;
+    color: brown;
   }
   .logout {
     display: flex;
     align-items: center;
-    background-color: #9f1e49;
+    background-color: #7dd87d;
     border-radius: 0.5rem;
     margin: 5rem;
     span {

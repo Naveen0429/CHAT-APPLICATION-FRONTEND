@@ -122,7 +122,7 @@ const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #680747;
+    background-color: #7dd87d;
     border-radius: 0 0.5rem 0 0;
     padding: 1.8rem 2rem;
     .user-details {
